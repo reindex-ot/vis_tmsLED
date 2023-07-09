@@ -1,0 +1,71 @@
+Visualization Plug-in - tmsLED Ver.1.01
+Copyright(C) 2005 T-Matsuo (win32lab.com)
+
+■概要
+キーボードLEDとシステムトレイを利用したWinamp用のレベルメータプラグインです。
+以下の２種類のレベルメータを表示できます。
+(1)Windowsのシステムトレイに常駐するアナログVUメータ
+(2)キーボードのLED(CapsLock/NumLock/ScrollLock)をレベルメータのように点灯
+
+※tmsLEDはフリーソフトです
+
+■使い方
+　WINAMPがインストールされているフォルダの下のPluginsフォルダに、同梱の
+配布ファイル「vis_tmsLED.dll」を解凍した後、preferences の plug-ins で
+vis_tmsLED を選択してください。Auto execute on play にチェックをつけると
+インストール後に、preferences の plug-ins で vis_tmsLED を選択してください。
+Auto execute on play にチェックをつけると演奏開始と同時に作動します。
+Configure ボタンを押すと、設定プロパティが表示されます。
+
+■動作環境についての注意
+・ハードウエアの仕様により、テンキー機能がQWERTY部分に(NUM切り替えで)割り当て
+られているノートPCや、省スペースキーボードでは正常に機能しない可能性があります。
+(LEDの点灯にNUMロック機能が反応してしまう)
+
+■動作機種
+・WINAMPが動作する環境 + WinMe/2000/XP(日本語版または英語版)
+
+■スキン(vis_tmsLED.bmp/vis_tmsLED.ini)について
+vis_tmsLED.bmpとvis_tmsLED.iniを変更することでVU計のデザインを変更できます。
+詳しくはvis_tmsLED.iniを参照してください
+変更したファイルは使用中のSkinに含めるか、プラグインフォルダに入れてください。
+スキンを作成したら私まで連絡くださるとうれしいです。
+気が向けば内蔵スキンに使わせていただきます。
+
+■配布ファイルの説明
+vis_tmsLED.dll　(プラグイン本体)
+vis_tmsLED_skin.zip　(スキン)
+vis_tmsLED.txt　(この説明文)
+
+■開発環境
+・WindowsXP Pro(J)
+・VisualC++6.0Pro(J) + SP6
+・Microsoft Platform SDK February 2003
+・Windows DDK 2600.1106
+
+■サポート・公開Webサイト
+「Win32工作小屋」
+http://win32lab.com/
+
+■改変履歴
+2005/03/21 Ver.1.01
+・LED点灯順を自由に指定できるように改良
+
+2002/03/12 Ver.1.00a
+・インストーラでインストール先を手動で指定できるように修正
+（プログラムには変更なし）
+
+2002/03/02 Ver.1.00
+・WindowsXPでトレイVUメータのLRが逆になる不具合を修正
+
+2002/02/04 Ver.1.00Beta3
+・スキンの仕様を強化
+
+2002/02/04 Ver.1.00Beta2
+・システムトレイのVU計表示を追加
+
+2002/01/28 Ver.1.00Beta1
+・公開初版
+
+-------------------------------------------------------------------------------
+T-Matsuo
